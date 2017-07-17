@@ -27,6 +27,7 @@ $ source env/bin/activate
 $ pip install tensorflow
 $ pip install keras==1.2.2
 $ pip install coremltools
+
 Alternatively, Write a Custom Conversion Tool
 
 It's possible to create your own conversion tool when you need to convert a model except Caffe Keras libSVM scikit-learn XGBoost.
@@ -36,6 +37,8 @@ Writing your own conversion tool involves translating the representation of your
 Convert your model using the Core ML converter that corresponds to your model’s third-party tool. Call the converter’s convert method and save the resulting model to the Core ML model format (.mlmodel).
 
 For example, if your model was created using Caffe, pass the Caffe model (.caffemodel) to the coremltools.converters.caffe.convert method.
+
+import coremltools
 
 coreml_model = coremltools.converters.caffe.convert('my_caffe_model.caffemodel')
 
