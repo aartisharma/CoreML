@@ -1,5 +1,5 @@
 # Iris (plant) A simple demo using Core ML in Swift for predcications. which suggest plant name based on 
-inputs of follwoing paraetrs .
+inputs of following paraetrs .
 sepal length 
 sepal width 
 petal length
