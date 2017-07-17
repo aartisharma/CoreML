@@ -94,7 +94,7 @@
                                             <constraint firstAttribute="height" constant="66" id="yiC-Ig-3Z9"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="0.26420413613270366" green="0.42839563307903994" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -116,6 +116,10 @@
                     <navigationItem key="navigationItem" title="Core ML" id="GMb-rR-dZK"/>
                     <connections>
                         <outlet property="classifier" destination="44X-lV-OJs" id="TA8-Gb-g2s"/>
+                        <outlet property="petal_Width_tf" destination="KtN-Ni-CvR" id="Bvy-TU-qc8"/>
+                        <outlet property="petal_length_tf" destination="xYx-aP-Pec" id="KMH-7f-a2l"/>
+                        <outlet property="sepal_length_tf" destination="XLX-9S-7k1" id="5GS-Zs-zBG"/>
+                        <outlet property="sepal_width_tf" destination="1zO-sl-VRw" id="uoF-T3-AKx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
