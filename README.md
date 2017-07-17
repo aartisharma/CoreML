@@ -1,4 +1,9 @@
-# A simple demo for Core ML in Swift
+# Iris (plant) A simple demo using Core ML in Swift for predcications. which suggest plant name based on 
+inputs of follwoing paraetrs .
+sepal length 
+sepal width 
+petal length
+petal width
 
 # About Core ML
 Machine Learning in iOS Using Core ML
@@ -61,3 +66,10 @@ predictions = model.prediction(sepal_length: a,sepal_width: b,petal_length: c,pe
 
 To create sample project follow the link below
 https://www.bignerdranch.com/blog/machine-learning-in-ios-using-core-ml/
+
+# Refrences--
+https://pythonhosted.org/coremltools/index.html
+https://developer.apple.com/documentation/coreml/converting_trained_models_to_core_ml
+https://pypi.python.org/pypi/coremltools
+https://alexsosn.github.io/ml/2015/11/05/iOS-ML.html
+
