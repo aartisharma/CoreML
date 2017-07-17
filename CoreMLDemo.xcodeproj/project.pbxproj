@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E97F9701EF8039000445875 /* iris_lr.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7E97F96F1EF8038F00445875 /* iris_lr.mlmodel */; };
 		F44543791EF0461F0024AFAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44543781EF0461F0024AFAC /* AppDelegate.swift */; };
 		F445437B1EF0461F0024AFAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445437A1EF0461F0024AFAC /* ViewController.swift */; };
 		F445437E1EF0461F0024AFAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F445437C1EF0461F0024AFAC /* Main.storyboard */; };
@@ -16,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7E97F96F1EF8038F00445875 /* iris_lr.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = iris_lr.mlmodel; path = ../../../iris_lr.mlmodel; sourceTree = "<group>"; };
+		CB81BB151F1CB4FD0055BD7E /* iris_lr.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file; path = iris_lr.mlmodel; sourceTree = "<group>"; };
 		F44543751EF0461F0024AFAC /* CoreMLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44543781EF0461F0024AFAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F445437A1EF0461F0024AFAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +55,7 @@
 		F44543771EF0461F0024AFAC /* CoreMLDemo */ = {
 			isa = PBXGroup;
 			children = (
-				7E97F96F1EF8038F00445875 /* iris_lr.mlmodel */,
+				CB81BB151F1CB4FD0055BD7E /* iris_lr.mlmodel */,
 				F44543781EF0461F0024AFAC /* AppDelegate.swift */,
 				F445437A1EF0461F0024AFAC /* ViewController.swift */,
 				F445437C1EF0461F0024AFAC /* Main.storyboard */,
@@ -139,7 +138,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F445437B1EF0461F0024AFAC /* ViewController.swift in Sources */,
-				7E97F9701EF8039000445875 /* iris_lr.mlmodel in Sources */,
 				F44543791EF0461F0024AFAC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
