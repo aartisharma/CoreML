@@ -44,12 +44,20 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
         present(cameraPicker, animated: true)
     }
     
-    @IBAction func openLibrary(_ sender: Any) {
-        let picker = UIImagePickerController()
-        picker.allowsEditing = false
-        picker.delegate = self
-        picker.sourceType = .photoLibrary
-        present(picker, animated: true)
+    @IBAction func onSubmit(_ sender: Any) {
+        // Core ML
+        let a: Double = 6.3;
+        let b: Double = 3.3;
+        let c: Double = 4.7;
+        let d: Double = 1.6;
+        
+        guard let prediction = try? model.prediction(sepal_length: a,sepal_width: b,petal_length: c,petal_width: d) else {
+            return
+        }
+        
+        classifier.text = "I think this is a \(prediction.class_)."
+        print(prediction.class_);
+        print(prediction.classProbability);
     }
 
 }
