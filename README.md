@@ -1,10 +1,12 @@
-# Iris (plant) A simple demo using Core ML in Swift 
-Suggests plant name based on inputs  parameters like .
+# Iris (flower) A simple demo using Core ML in Swift 
+Iris flower Dataset :Suggests flower name based on inputs parameters like .(https://en.wikipedia.org/wiki/Iris_flower_data_set)
 
-sepal length 
-sepal width 
-petal length
-petal width
+sepal length 7.7	
+sepal width 	3.8	
+petal length 6.7	
+petal width 2.2	
+
+iOS app Suggest flower name :I. virginica using Machine learning Model. 
 
 # About Core ML
 Machine Learning in iOS Using Core ML
